@@ -67,10 +67,11 @@ python main.py
 
 ## Results 📈
 
-| Model               | Accuracy | Jaccard Index | F1 Score | Log Loss |
-|---------------------|----------|---------------|----------|----------|
-| Linear Regression   | -        | -             | -        | -        |
-| KNN                 | 82.23%   | 23.02%        | 37.43%   | -        |
-| Decision Tree       | 86.02%   | 43.68%        | 60.80%   | -        |
-| Logistic Regression | 99.88%   | 99.39%        | 99.69%   | 0.0618   |
+| Model               | Accuracy   | Jaccard Index | F1 Score  | Log Loss  |
+|---------------------|------------|---------------|----------|----------|
+| Linear Regression   | 99.79% (R^2 Score) | -        | -        | -        |
+| KNN                 | 82.23%     | 23.02%        | 37.43%   | -        |
+| Decision Tree       | 86.02%     | 43.68%        | 60.80%   | -        |
+| Logistic Regression | 99.88%     | 99.39%        | 99.69%   | 0.0618   |
+| SVM                 | 80.56%     | 0.00%         | 0.00%    | -        |
 

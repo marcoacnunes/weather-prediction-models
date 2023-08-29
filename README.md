@@ -10,7 +10,6 @@
     - [Usage](#usage)
 - [Models and Evaluation](#models-and-evaluation)
 - [Results](#results)
-- [Recommendations and Future Work](#recommendations-and-future-work)
 
 ## Introduction
 

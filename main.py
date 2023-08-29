@@ -19,11 +19,6 @@ data = StringIO(response.text)
 df = pd.read_csv(data)
 df.head()
 
-# Check if 'Data.Precipitation' column exists
-if 'Data.Precipitation' not in df.columns:
-    print("Data.Precipitation column does not exist in the DataFrame.")
-    # Exit or handle error appropriately
-    exit()
 threshold = 1
 df['RainTomorrow'] = df['Data.Precipitation'].apply(lambda x: 1 if x > threshold else 0)
 

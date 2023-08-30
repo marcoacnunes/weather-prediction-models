@@ -1,16 +1,5 @@
 # Weather Prediction Models 🌦️
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Dataset](#dataset)
-- [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-    - [Usage](#usage)
-- [Models and Evaluation](#models-and-evaluation)
-- [Results](#results)
-
 ## Introduction
 
 This project aims to predict whether it will rain tomorrow based on historical weather data. We use various machine learning models including Linear Regression, K-Nearest Neighbors (KNN), Decision Trees, and Logistic Regression.
@@ -18,34 +7,6 @@ This project aims to predict whether it will rain tomorrow based on historical w
 ## Dataset 📊
 
 The dataset is sourced from the Corgis project and can be found [here](https://corgis-edu.github.io/corgis/datasets/csv/weather/weather.csv). It provides various metrics like wind direction, precipitation, and more.
-
-## Getting Started 🚀
-
-### Prerequisites
-
-Ensure you have the following libraries installed:
-- `pandas`
-- `numpy`
-- `sklearn`
-- `requests`
-
-### Installation
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/marcoacnunes/weather-prediction-models.git
-   ```
-2. Install the required packages:
-   ```bash
-   pip install pandas numpy sklearn requests
-   ```
-
-### Usage
-
-Run the main script to train the models and evaluate their performance:
-```bash
-python main.py
-```
 
 ## Models and Evaluation 🤖
 
